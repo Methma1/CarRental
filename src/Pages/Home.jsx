@@ -4,6 +4,7 @@ import CarCard from '../Components/CarCard'
 import FeaturedSection from '../Components/FeaturedSection'
 import Banner from '../Components/Banner'
 import Testimonials from '../Components/Testimonials'
+import NewsLetter from '../Components/NewsLetter'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <FeaturedSection/>
       <Banner/>
       <Testimonials/>
+      <NewsLetter/>
     </>
   )
 }
