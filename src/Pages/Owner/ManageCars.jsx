@@ -47,6 +47,8 @@ const ManageCars = () => {
                     <img src={car.isAvaliable ? assets.eye_close_icon : assets.eye_icon} alt="" className='cursor-pointer' />
                     <img src={assets.delete_icon} alt="" className='cursor-pointer' />
                     </td>
+                    <td></td>
+                    
                 </tr>
               ))}
             </tbody>
